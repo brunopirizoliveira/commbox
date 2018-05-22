@@ -1,0 +1,374 @@
+* {	margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+
+body { background-color: #F5F5F5; }
+
+a { text-decoration: none; }
+
+ul { list-style: none; }
+
+img { max-width: 100%;}
+
+nav { margin-bottom: 2em; }
+
+/* Foto */
+
+#foto_motorista {
+  width: 7em;
+  height: 7em;
+}
+#foto_veiculo {
+  width: 9em;
+  height: 7em;
+}
+
+#foto_item {
+  width: 7em;
+  height: 7em;
+}
+
+#canvas2 {
+  display: none;
+}
+
+#cont-inconsist {
+  margin-bottom: 2em;
+}
+
+.wrapper-obs {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+  /* 
+  Cores customizadas da BeB
+  BBCOLOR_VERMELHO = $005959FF;
+  BBCOLOR_VERDE    = $00A8FFA8;
+  BBCOLOR_AZUL     = $00F0EAE3;
+  BBCOLOR_AMARELO  = $0093FFFF;
+  BBCOLOR_CINZA    = $00CCCCCC;
+  BBCOLOR_FORM     = $00F5F5F5;
+  */
+.conforme {
+  background-color: #A8FFA8;  
+}
+.naoconforme {
+  background-color: #FF5959;
+}
+.autorizado {
+  background-color: #FFFF93;
+}
+
+.titleConforme{
+  text-decoration: none; color white;
+}
+.titleNaoConforme{
+  text-decoration: none; color white;
+}
+.titleAutorizado{
+  text-decoration: none; color black;
+}
+
+/*class="btn btn-link"*/
+
+
+/* Login */
+
+@media screen and (min-width: 600px) {
+    #wrapper{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #wrapper{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #wrapper{
+        width: 25%;
+    }
+}
+
+/* Alerts */
+
+#alert_login {
+  margin-top: 0.5em;
+}
+
+/* Fim Alerts */
+
+ /* Menu Padrão B&B */
+
+.navbar-beb .navbar-brand {
+  color: #fff;
+}
+
+.navbar-beb .navbar-brand:hover, .navbar-beb .navbar-brand:focus {
+  color: #fff;
+}
+
+.navbar-beb .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-beb .navbar-nav .nav-link:hover, .navbar-beb .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-beb .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-beb .navbar-nav .show > .nav-link,
+.navbar-beb .navbar-nav .active > .nav-link,
+.navbar-beb .navbar-nav .nav-link.show,
+.navbar-beb .navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+.navbar-beb .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-beb .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-beb .navbar-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-beb .navbar-text a {
+  color: #fff;
+}
+
+.navbar-beb .navbar-text a:hover, .navbar-beb .navbar-text a:focus {
+  color: #fff;
+}
+
+/* Menu Dropdown Consultas - Padrão B&B */
+
+.dropdown-menu {
+  background-color: #1589FF !important;
+  color: #fff;
+}
+
+a.dropdown-menu:hover, a.dropdown-menu:focus {
+  background-color: #0062cc !important;
+  color: #fff;
+}
+
+.dropdown-item {
+  background-color: #1589FF !important;
+  color: #fff;
+}
+
+a.dropdown-item:hover, a.dropdown-menu:focus {
+  background-color: #0062cc !important;
+  color: #fff;
+}
+
+/* Background Padrão B&B */
+
+.bg-bb-primary {
+  background-color: #1589FF !important;
+}
+
+a.bg-bb-primary:hover, a.bg-bb-primary:focus,
+button.bg-bb-primary:hover,
+button.bg-bb-primary:focus {
+  background-color: #0062cc !important;
+}
+
+/* Botão Padrão B&B */
+
+.btn-bb-primary {
+  color: #fff;
+  background-color: #1589FF;
+  border-color: #1589FF;
+}
+
+.btn-bb-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-bb-primary:focus, .btn-bb-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-bb-primary.disabled, .btn-bb-primary:disabled {
+  color: #fff;
+  background-color: #1589FF;
+  border-color: #1589FF;
+}
+
+.btn-bb-primary:not(:disabled):not(.disabled):active, .btn-bb-primary:not(:disabled):not(.disabled).active,
+.show > .btn-bb-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.btn-bb-primary:not(:disabled):not(.disabled):active:focus, .btn-bb-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-bb-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+
+/* Botes Checklist */
+
+
+.button-wrap {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  margin-top: -2.5em;
+}
+@media (max-width: 40em) {
+  .button-wrap {
+    margin-top: -1.5em;
+  }
+}
+
+.button-label {
+  display: inline-block;  
+  height: 36px;
+  padding: 0em 0.5em;
+  margin: 0.1em;
+  cursor: pointer;
+  color: #292929;
+  border-radius: 0.25em;
+  background: #efefef;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.button-label h1 {
+  font-size: 1em;
+  font-family: "Lato", sans-serif;
+}
+.button-label:hover {
+  background: #d6d6d6;
+  color: #101010;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.32);
+}
+.button-label:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0px -1px 0 rgba(0, 0, 0, 0.22);
+}
+@media (max-width: 40em) {
+  .button-label {
+    height: 36px;
+    padding: 0em 0.5em;
+    margin: 0.25em;
+  }
+}
+
+/*
+#yes-button:checked + .button-label {
+  background: #2ECC71;
+  color: #efefef;
+}
+
+#yes-button:checked + .button-label:hover {
+  background: #29b765;
+  color: #e2e2e2;
+}
+*/
+input[id^=yes-button]:checked + .button-label {
+  background: #2ECC71;
+  color: #efefef;
+}
+
+input[id^=yes-button]:checked + .button-label:hover {
+  background: #29b765;
+  color: #e2e2e2;
+}
+/*
+#no-button:checked + .button-label {
+  background: #D91E18;
+  color: #efefef;
+}
+#no-button:checked + .button-label:hover {
+  background: #c21b15;
+  color: #e2e2e2;
+}
+*/
+
+input[id^=no-button]:checked + .button-label {
+  background: #D91E18;
+  color: #efefef;
+}
+input[id^=no-button]:checked + .button-label:hover {
+  background: #c21b15;
+  color: #e2e2e2;
+}
+
+input[id^=authorize-button]:checked + .button-label {
+  background: #ff751a;
+  color: #efefef;
+}
+
+
+/*
+#maybe-button:checked + .button-label {
+  background: #4183D7;
+  color: #efefef;
+}
+#maybe-button:checked + .button-label:hover {
+  background: #2c75d2;
+  color: #e2e2e2;
+}
+*/
+
+input[id^=maybe-button]:checked + .button-label {
+  background: #4183D7;
+  color: #efefef;
+}
+input[id^=maybe-button]:checked + .button-label:hover {
+  background: #2c75d2;
+  color: #e2e2e2;
+}
+
+span[id^=auth-box] {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+a[id^=titleHead] {
+  text-decoration: none;
+  color: #212529;
+}
+
+a[id^=titleHead]:hover {
+  text-decoration: none;
+  color: #212529;
+}
+
+span[id^=infoItem] {
+  z-index:999;
+  float: right;
+}
+
+/*
+<input class="hidden checkbox-label" type="checkbox" name="auth-offers{id}" id="authorize-button{id}" value="AUTH" />                
+                <label class="button-label" for="authorize-button{id}">
+                  <h2><i class="material-icons">spellcheck</i></h2>
+                </label> 
+*/
+
+.hidden {
+  display: none;
+}
